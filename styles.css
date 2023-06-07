@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(17, 0, 255, 0.863);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+
+/* Grid de produtos */
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+    display: inline-block;
+    margin:1% 1%;
+    padding: 15px;
+}
+
+.productImge {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img1 {
+background-image: url(../img/t1);
+}
+#img2 {
+    background-image: url(../img/t2);
+}
+
+#img3 {
+    background-image: url(../img/t3);
+}
+
+#img4 {
+    background-image: url(../img/t4);
+}
+
+#img5 {
+    background-image: url(../img/t5);
+}
+
+#img6 {
+    background-image: url(../img/t6);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: blue ;
+    border-left: 5px solid rgb(5, 10, 83);
+    padding-left: 7px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+.btn:hover {
+    background-color: rgb(13, 216, 74);
+}
+
+/* Footer */
+
+footer {
+    background-color: blue;
+    color: white;
+    border-top: 2px solid red;
+    text-align: center;
+    padding: 50px;
+}
